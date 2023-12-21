@@ -1,0 +1,50 @@
+.login{
+    position: fixed;
+    background-image: url(image5.jpeg);
+    background-size:contain;
+}
+.form_contanier{
+    width: 30%;
+}
+@media screen and (max-width:1000px) {
+    .form_contanier{
+        width: 45%;
+    }
+}
+@media screen and (max-width:700px) {
+    .form_contanier{
+        width: 65%;
+    }
+}
+
+/* body{
+    height: 100vh;
+    background:#eed8d8 !important;
+}
+.body{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+} 
+.card{
+    overflow: hidden;
+    border: 0 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0,0, 0, 0.1);
+}
+
+img-left{
+    width: 45%;
+    background-image:url('image5.jpeg') center;
+    background-size: cover;
+
+}
+.card-body{
+    padding: 2rem;
+}
+.title{
+    margin-bottom: 2rem;
+
+} */

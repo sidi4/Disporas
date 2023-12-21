@@ -1,0 +1,54 @@
+.Dashborde{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.AppHeader{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: rgb(68, 219, 23);
+    padding: 4px 20px 4px 12px;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+
+}
+
+
+.AppFooter:focus{
+    background-color: rgb(68, 219, 23); 
+}
+.SideMenuPageContent{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+.SideMenu{
+    background-color: rgb( 68, 219, 23);
+}
+.PageContent{
+    padding-left: 12px;
+    
+}
+.AppFooter {
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid rgba(0,0,0,0.15);
+    background-color: #ffff;
+    box-shadow: 29px;
+    animation-duration: 0.5s;
+    font-size: 50px;
+    background-color: rgba( 68, 219, 23,0.7);
+    color:black ;
+    
+}
+
+
