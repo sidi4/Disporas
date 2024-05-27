@@ -144,7 +144,7 @@ function Sidebar1() {
                         {/* <!-- /.container-fluid --> */}
 
                     </div>
-                    {/* <!-- End of Main Content --> */}
+                    
 
                     {/* <!-- Footer --> */}
                     <footer className="sticky-footer bg-white">
