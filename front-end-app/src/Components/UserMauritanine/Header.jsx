@@ -21,26 +21,14 @@ import DashbordeAdmin from '../Adminstrateur/DashbordeAdmin';
 function Header() {
   return (
     
-    <Navbar expand="lg" className="nave bg-body-" style={{height: '80px',maxHeight: '100px'}}>
-      <Container fluid>
-        <Navbar.Brand>logo</Navbar.Brand>
-        
+    <Navbar expand="lg" className="shadow-sm  bg-white rounded">
+      <Container fluid  >
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '200px'}}
-            navbarScroll
-          >
-            
-            <Nav.Link href='/'>Hom</Nav.Link>
-           
-            
+        <Navbar.Collapse id="navbarScroll" >
+          <Nav className="me-auto  my-lg-0 bg-transparent fw-bold fs-3" style={{ maxHeight: '200px'}} navbarScroll >
+            <Nav.Link href='/' >Accueil</Nav.Link>
           </Nav>
-          
-         
-            <Link to={'/admin'}><Button type="button" className="btn btn-success">Conecter</Button></Link>
-
+          <Link to={'/admin'}><Button type="button" className="btn btn-success">Conecter</Button></Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>
