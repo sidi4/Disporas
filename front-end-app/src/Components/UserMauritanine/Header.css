@@ -1,9 +1,9 @@
 
-.navbar-expand-lg {
-    flex-wrap: nowrap;
-    justify-content: center;
-    height: 80px;
-    background-color:  rgb(68, 219, 23); 
-     
+.Nlink{
+    background-color: blue;
+    
+    color: white;
 }
-
+.N{
+    border-radius: 10px;
+}
