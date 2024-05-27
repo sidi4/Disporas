@@ -36,8 +36,8 @@ function TabelAmbasade () {
   const customStyles={
     headRow:{
       style:{
-        backgroundColor:'blue',
-        color:'white'
+        backgroundColor:'#e5e7e9',
+        color:'black'
 
       },
     },
@@ -214,13 +214,13 @@ function TabelAmbasade () {
     
    <div>
      <div  className="d-sm-flex align-items-center justify-content-between mb-4">
-                    <h1  className="h3 mb-0 text-gray-800">Liste des deispora</h1>
+                    <h1  className="h3 mb-0 text-gray-800">Liste des diaspora</h1>
 
                    
                      <form
-                     className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm m-2">
+                     className="d-none d-sm-inline-block btn btn-sm shadow-sm m-2">
                     <div  className="input-group ">
-                        <input type="text"  className="form-control bg-light border-0 small " placeholder="Search for..."
+                        <input type="text"  className="form-control border-0 small " placeholder="Search for..."
                             aria-label="Search" aria-describedby="basic-addon2" onChange={searchUser}/>
                         <div  className="input-group-append">
                             <button  className="btn btn-primary" type="button">

@@ -78,7 +78,7 @@ else{
   return (
 
 
-<body id="page-top">
+<body id="page-top" >
 
 {/* <!-- Page Wrapper --> */}
 <div id="wrapper">
@@ -93,6 +93,10 @@ else{
                
              
             </div>
+            {/* <!-- Sidebar Toggler (Sidebar) --> */}
+            <div  className="text-center d-none d-md-inline">
+                <button  className="rounded-circle border-0" id="sidebarToggle" onClick={changeStyle}></button>
+            </div>
             <div  className="sidebar-brand-text mx-3">Dispora Site</div>
         </a>
 
@@ -103,29 +107,19 @@ else{
             <Link to={'/dashbordAmbasade'} className="nav-link">
                 <i  className="fas fa-fw fa-tachometer-alt"></i>
                 <span>Dashboard</span></Link>
-        </li>
+        </li>  
 
-        <hr  className="sidebar-divider"/>
-
-        
-        <hr  className="sidebar-divider"/>
-
-      
-        <li  className="nav-item">
-            <a  className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                aria-expanded="true" aria-controls="collapsePages">
-                <i  className="fas fa-fw fa-folder"></i>
-                <span>Pages</span>
-            </a>
+        <hr  className="sidebar-divider d-none d-md-block"/>
             
+        <li  className="nav-item active">
+            <Link to={'/dashbord'} className="nav-link">
+                <i  className="fas fa-fw fa-tachometer-alt"></i>
+                <span>Les Utilisateurs</span></Link>
         </li>
 
         <hr  className="sidebar-divider d-none d-md-block"/>
 
-        {/* <!-- Sidebar Toggler (Sidebar) --> */}
-        <div  className="text-center d-none d-md-inline">
-            <button  className="rounded-circle border-0" id="sidebarToggle" onClick={changeStyle}></button>
-        </div>
+        
 
     </ul>
     {/* <!-- End of Sidebar --> */}

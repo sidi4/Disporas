@@ -75,7 +75,6 @@ return (
 
 
 <div>
-    
     <Header/>   
     <div className='login template d-flex justify-content-center align-items-center w-100 vh-100'>
       <div className='form_contanier p-5 rounded shadow bg-white'>

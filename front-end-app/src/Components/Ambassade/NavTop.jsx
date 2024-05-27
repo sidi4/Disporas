@@ -54,7 +54,7 @@ function NavTop() {
   }
     return (
       <div>
-      <nav class="navbar navbar-expand navbar topbar mb-4 static-top shadow">
+      <nav class="navbar navbar-expand navbar topbar mb-4 static-top">
      
      
 
@@ -76,7 +76,7 @@ function NavTop() {
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 
-                  <button className='btn btn-primary'>Deconnecter</button>
+                  <button className='btn btn-danger'>Deconnecter</button>
               </a>
               {/* <!-- Dropdown - User Information --> */}
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"

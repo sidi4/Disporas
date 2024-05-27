@@ -11,6 +11,7 @@ import AppHeader from '../Adminstrateur/AppHeadar';
 import AppFooter from '../Adminstrateur/AppFooter';
 import PhoneInput from 'react-phone-input-2';
 import NavTop from './NavTop';
+import Sidebar1 from './Sidebar1';
 export default function EditDispora() {
     
     const navigate =useNavigate();
